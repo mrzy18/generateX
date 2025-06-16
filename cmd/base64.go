@@ -14,7 +14,7 @@ import (
 // base64Cmd represents the base64 command
 var base64Cmd = &cobra.Command{
 	Use:   "base64",
-	Short: "A brief description of your command",
+	Short: "Generate base64 string",
 	Long: `Provided length, it generates base64 string.
 For example:
 generateX base64 -l 10`,
